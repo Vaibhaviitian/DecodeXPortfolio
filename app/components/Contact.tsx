@@ -3,7 +3,7 @@
 import type React from "react"
 
 import { useEffect, useRef, useState } from "react"
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Instagram } from "lucide-react"
+import { Mail, MapPin, Send, Github, Linkedin, Instagram } from "lucide-react"
 import Toast from "./Toast"
 
 export default function Contact() {
@@ -113,12 +113,6 @@ export default function Contact() {
       title: "Email",
       value: "23je1055@iitism.ac.in",
       href: "mailto:23je1055@iitism.ac.in",
-    },
-    {
-      icon: Phone,
-      title: "Phone",
-      value: "830-313-1343",
-      href: "tel:8303131343",
     },
     {
       icon: MapPin,
